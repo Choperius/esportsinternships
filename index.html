@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Esports Internships</title>
+  <!-- SCALING FONT -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- CSS -->
+	<link rel="stylesheet" href="style.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<!-- jQuery CDN -->
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<!-- JS -->
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div class="top-container container-fluid">
+	<!-- BACKGROUND VIDEO -->
+	<div class="video-background">
+    <div class="video-foreground">
+      <!--<iframe id="myVideo" src="https://www.youtube.com/embed/ZBcl5C4MRw4?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=ZBcl5C4MRw4" frameborder="0" allowfullscreen></iframe>-->
+      <div id="player"></div>
+    <script>
+      // 1. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 2. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '100%',
+          width: '100%',
+          playerVars: {
+                    autoplay: 0,
+                    loop: 1,
+                    controls: 0,
+                    showinfo: 0,
+                    autohide: 1,
+                    modestbranding: 1,
+                    vq: 'hd1080'},
+          videoId: 'ZBcl5C4MRw4',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+
+      // 3. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.playVideo();
+        player.mute();
+      }
+
+      var done = false;
+      function onPlayerStateChange(event) {
+        
+      }
+      /*function nextVideo() {
+        player.nextVideo();
+      }*/
+    </script>
+    </div>
+    <!-- END OF BACKGROUND VIDEO  -->
+
+<!-- INFO BOX -->
+<div id="top-container">
+<div class="jumbotron vertical-center">
+<!--<div id="vidtop-content">-->
+<div class="vid-info col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1" >
+	  <h2><i>LIVE THE ESPORTS DREAM</i></h2>
+    <table class="table">
+    <thead>
+    <tr>
+      <th>Company</th>
+      <th>Link</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <th>Blizzard Entertainment</th>
+      <th><a href="https://careers.blizzard.com/en-us/students/internships">https://careers.blizzard.com/en-us/students/internships</a></th>
+    </tr>
+      <tr>
+      <th>Riot Games</th>
+      <th><a href="https://www.riotgames.com/internship-info#internships">https://www.riotgames.com/internship-info</a></th>
+    </tr>
+    </tbody>
+    </table>
+	  <!--<p><a href=""><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></a></p>-->
+</div>
+<!--</div>-->
+</div>
+</div>
+
+<!--<div class="vid-info">
+	  <table class="jobs-table">
+	  	<h2 class="jobs-table-title">Latest Internships</h2>
+	  	<tbody>-->
+	  		<!-- Google Nigeria -->
+	  		<!--<tr class="job-detail-row">
+	  		<tr class="title">
+	  			<a href="">
+	  				<span class="job-scope">Marketing Internship</span>
+	  				<span class="job-employer">Google</span>
+	  				<span class="job-location">Lagos, Nigeria</span>
+	  			</a>
+	  		</tr>
+			<tr class="title">
+				<a href="">
+					<span class="job-scope">Marketing Internship</span>
+					<span class="job-employer">Hotels.ng</span>
+					<span class="job-location">Lagos, Nigeria</span>
+				</a>
+			</tr>
+			</tr>
+		</tbody>
+	  </table>
+  </div>
+  </div>-->
+<!-- END OF INFO BOX -->
+</div>
+</body>
+</html>

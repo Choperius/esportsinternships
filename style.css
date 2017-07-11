@@ -23,7 +23,7 @@
 	}
 }
 
-.new-job-div, .new-job-div .fieldWrapper
+/*.new-job-div, .new-job-div .fieldWrapper
 {
 	width: 100%;
 	/*background-color: #000;*/
@@ -76,7 +76,7 @@
 {
 	margin: 10px 0 10px 0;
 	font-size: 14px;
-	color: #F00;
+	color: #F00; 
 	/*text-align: center;*/
 }
 

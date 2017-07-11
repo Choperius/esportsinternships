@@ -1,7 +1,7 @@
 .jobs-table-title
 {
 	/*font-size: 24px;*/
-	color: #75387c;
+	color: #ff4742;
 }
 
 .jobs-table
@@ -53,11 +53,6 @@
 .job-highlight
 {
 	background-color: #FFFDB3 !important;
-}
-
-.job-sponsored-highlight
-{
-	background-color: lightgreen;
 }
 
 .job-detail-row .location

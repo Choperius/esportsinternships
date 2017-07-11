@@ -1,7 +1,7 @@
-.btn
+/*.btn
 {
 	padding: 10px;
-	background-color: #EEE;
+	background-color:#EEE
 	color: #000;
 
 	font-weight: bold;
@@ -20,42 +20,45 @@
 
 	cursor: pointer;
 }
+*/
 
 .btn-cta
 {
 	padding: 10px;
-	background-color: #8a3b92;
+	background-color: #ff4742;
 	color: #FFF;
 
 	font-weight: bold;
 	font-size: 16px;
+	font-color: #8a3b92;
 
 	text-decoration: none;
 
 	box-shadow: none;
-	border: none;
+	border: solid #ff4742;
+
 }
 
 .btn-cta:hover
 {
-	background-color: #75387c;
-	color: #FFF;
+	background-color: #FFF;
+	color: #ff4742;
 
 	cursor: pointer;
 }
 
-.subscribe-btn
+/*.subscribe-btn
 {
 	display: block;
 	width: 100%;
 	padding-left: 0;
 	padding-right: 0;
-}
+}/*
 
-.plain-btn
+/*.plain-btn
 {
 	padding: 20px 0 0 0;
-}
+}*/
 
 .new-job-btn
 {
@@ -68,12 +71,12 @@
 	/*flex: 1;*/
 }
 
-.back-btn
+/*.back-btn
 {
 	float: left;
-}
+}/*
 
-.arrow-btn
+/*.arrow-btn
 {
 	text-decoration: none;
 	color: #3333FF;
@@ -85,8 +88,8 @@
 {
 	color: #2626BC;
 }
-
-.share-icons a
+*/
+/*.share-icons a
 {
 	text-decoration: none;
 	font-size: 28px;
@@ -127,3 +130,4 @@
 {
 	color: #0084b4;
 }
+*/

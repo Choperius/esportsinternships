@@ -1,0 +1,145 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	/*background-color: #faf310;*/
+
+	margin: 30px;
+}
+
+hr
+{
+	color: #EEE;
+	background-color: #EEE;
+	height: 1px;
+	border: 0;
+	font-size: 0;
+}
+
+h1, h2, h3, h4, h5, h6, strong
+{
+	font-family: 'Roboto', sans-serif;
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="number"]
+{
+	padding: 10px 10px;
+	border-radius: 4px;
+	border: 1px solid #eee;
+
+	font-size: 14px;
+}
+
+textarea
+{
+	width: 100%;
+	padding: 10px 10px;
+	border-radius: 4px;
+	border: 1px solid #eee;
+
+	font-size: 14px;
+}
+
+input[type="select"]
+{
+	width: 300px;
+}
+
+.brand
+{
+	display: inline-block;
+	text-align: center;
+	
+	transition: all 0.1s ease;
+}
+
+.brand a
+{
+	color: #2F3035 !important;
+	font-size: 28px;
+}
+
+.brand a:hover
+{
+	color: #666871 !important;
+
+	transition: all 0.1s ease;
+}
+
+.brand a img
+{
+}
+
+.brand a:hover img
+{
+	opacity: 0.8;
+
+	transition: all 0.1s ease;
+}
+
+.navbar
+{
+	display: flex;
+	align-items: center;
+
+	/*justify-content: center;*/
+}
+
+.search-form
+{
+	width: 100%;
+
+	text-align: center;
+}
+
+.search-bar
+{
+	width: 85%;
+}
+
+.search-btn
+{
+	display: inline-block;
+	width: 10%;
+
+	-webkit-appearance: none;
+}
+
+.info-text
+{
+	color: #333;
+	font-size: 16px;
+}
+
+.email-form
+{
+	width: 100%;
+	text-align: center;
+}
+
+.email-form #id_email
+{
+	width: 100%;
+}
+
+.subscribe-input
+{
+	margin-bottom: 10px;
+}
+
+.footer
+{
+	bottom: 0;
+}
+
+.footer a
+{
+	text-decoration: none;
+	color: #3333FF;
+
+	margin: 0 5px;
+}
+
+.footer a:hover
+{
+	color: #2626BC;
+}

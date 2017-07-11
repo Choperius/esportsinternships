@@ -1,0 +1,129 @@
+.btn
+{
+	padding: 10px;
+	background-color: #EEE;
+	color: #000;
+
+	font-weight: bold;
+	font-size: 16px;
+
+	text-decoration: none;
+
+	box-shadow: none;
+	border: none;
+}
+
+.btn:hover
+{
+	background-color: #AAA;
+	color: #FFF;
+
+	cursor: pointer;
+}
+
+.btn-cta
+{
+	padding: 10px;
+	background-color: #8a3b92;
+	color: #FFF;
+
+	font-weight: bold;
+	font-size: 16px;
+
+	text-decoration: none;
+
+	box-shadow: none;
+	border: none;
+}
+
+.btn-cta:hover
+{
+	background-color: #75387c;
+	color: #FFF;
+
+	cursor: pointer;
+}
+
+.subscribe-btn
+{
+	display: block;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.plain-btn
+{
+	padding: 20px 0 0 0;
+}
+
+.new-job-btn
+{
+	margin-left: auto;
+	text-align: center;
+
+	padding: 10px 10px;
+
+	/*width: 150px;*/
+	/*flex: 1;*/
+}
+
+.back-btn
+{
+	float: left;
+}
+
+.arrow-btn
+{
+	text-decoration: none;
+	color: #3333FF;
+
+	font-size: 15px;
+}
+
+.arrow-btn:hover
+{
+	color: #2626BC;
+}
+
+.share-icons a
+{
+	text-decoration: none;
+	font-size: 28px;
+
+	margin: 0 2px;
+
+	transition: all 0.3s ease;
+}
+
+.share-icons a:hover
+{
+	opacity: 0.6;
+
+	transition: all 0.3s ease;
+}
+
+.fa-envelope
+{
+	color: #BBB;
+}
+
+.fa-facebook-official
+{
+	color: #3b5998;
+}
+
+.fa-google-plus-official
+{
+	color: #d34836;
+}
+
+.fa-linkedin-square
+{
+	color: #0077B5;
+}
+
+.fa-twitter
+{
+	color: #0084b4;
+}

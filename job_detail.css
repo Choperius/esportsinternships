@@ -218,3 +218,12 @@
 		text-align: left;
 	}
 }*/
+
+@media (max-width: 768px)
+{
+	.jobs-table
+	{
+		width: 20%
+	}
+
+}

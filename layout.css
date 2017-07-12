@@ -6,30 +6,30 @@ body
 	margin: 30px;
 }
 
-hr
+/*hr
 {
 	color: #EEE;
 	background-color: #EEE;
 	height: 1px;
 	border: 0;
 	font-size: 0;
-}
+}*/
 
 h1, h2, h3, h4, h5, h6, strong
 {
 	font-family: 'Roboto', sans-serif;
 }
 
-input[type="text"], input[type="email"], input[type="url"], input[type="number"]
+/*input[type="text"], input[type="email"], input[type="url"], input[type="number"]
 {
 	padding: 10px 10px;
 	border-radius: 4px;
 	border: 1px solid #eee;
 
 	font-size: 14px;
-}
+}*/
 
-textarea
+/*textarea
 {
 	width: 100%;
 	padding: 10px 10px;
@@ -37,12 +37,12 @@ textarea
 	border: 1px solid #eee;
 
 	font-size: 14px;
-}
+}*/
 
-input[type="select"]
+/*input[type="select"]
 {
 	width: 300px;
-}
+}*/
 
 .brand
 {
@@ -143,4 +143,27 @@ input[type="select"]
 .footer a:hover
 {
 	color: #2626BC;
+}
+
+@media (max-width: 768px)
+{
+	body
+	{
+		margin: 0px;
+	}
+	.container
+	{
+		text-align: center;
+	}
+	.footer
+	{
+	}
+	.brand
+	{
+		margin: 0px;
+
+	}
+	.navbar
+	{
+	}
 }

@@ -16,7 +16,10 @@
 }
 
 @media (max-width: 768px)
-{
+{	
+	.jobs-parent-div
+	{
+	}
 	.jobs-div
 	{
 		width: 100%;

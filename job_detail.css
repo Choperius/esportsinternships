@@ -89,7 +89,7 @@
 	color: #A09C65;
 }
 
-.jobs-detail-main-div
+/*.jobs-detail-main-div
 {
 	width: 80%;
 }
@@ -190,7 +190,7 @@
 
 	/*font-style: italic;*/
 	/*color: #555;*/
-}
+/*}
 
 .company-info-right
 {
@@ -198,7 +198,7 @@
 	/*margin-left: 20px;*/
 }
 
-@media (max-width: 768px)
+/*@media (max-width: 768px)
 {
 	.jobs-detail-main-div
 	{
@@ -208,8 +208,8 @@
 	.jobs-detail-div
 	{
 		width: 100%;
-		flex: none;
-	}
+		/*flex: none;*/
+/*	}
 
 	.jobs-detail-sidebar
 	{
@@ -217,4 +217,4 @@
 		flex: none;
 		text-align: left;
 	}
-}
+}*/

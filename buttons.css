@@ -60,11 +60,17 @@
 	padding: 20px 0 0 0;
 }*/
 
+.post-a-job-btn
+{
+	margin-left: auto;
+	text-align: center;
+	padding: 10px 10px;
+}
+
 .new-job-btn
 {
 	margin-left: auto;
 	text-align: center;
-
 	padding: 10px 10px;
 
 	/*width: 150px;*/
